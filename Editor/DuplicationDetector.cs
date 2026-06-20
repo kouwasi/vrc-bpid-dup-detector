@@ -63,7 +63,7 @@ namespace VRCBPIDDuplicationDetector
     {
       return EditorUtility.DisplayDialog(
         "Blueprint IDの重複を検知しました",
-        message + "\n\nビルドを続行すると、意図せずアップロード済みのアバターを上書きしてしまう可能性があります。\nビルドを続行しますか？",
+        message + "\n\nビルドを続行すると、意図せずアップロード済みのアバターを上書きしてしまう可能性があります。\n\nビルドを続行しますか？",
         "続行",
         "キャンセル"
       );
