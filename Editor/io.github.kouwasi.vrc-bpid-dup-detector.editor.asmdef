@@ -1,0 +1,7 @@
+{
+  "name": "io.github.kouwasi.vrc-bpid-dup-detector.editor",
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": true
+}
