@@ -1,6 +1,6 @@
 {
   "name": "io.github.kouwasi.vrc-bpid-dup-detector",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "displayName": "VRC BPID Duplication Detector",
   "description": "This is a Blueprint ID duplication detector to prevent overwrite of existing avatar in VRChat.",
   "author": {
