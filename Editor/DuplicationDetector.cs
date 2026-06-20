@@ -10,7 +10,7 @@ namespace VRCBPIDDuplicationDetector
 {
   public class DuplicationDetector : IVRCSDKPreprocessAvatarCallback
   {
-    public int callbackOrder => 0;
+    public int callbackOrder => int.MinValue;
 
     public bool OnPreprocessAvatar(GameObject avatarGameObject)
     {
