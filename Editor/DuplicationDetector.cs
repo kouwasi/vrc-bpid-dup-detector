@@ -30,8 +30,8 @@ namespace VRCBPIDDuplicationDetector
       {
         Logger.Log($"Duplicate Blueprint ID '{blueprintId}' found.");
 
-        string confirmationMessage = $"Blueprint ID '{blueprintId}' が以下のアバターと重複しています。\n\n"
-          + string.Join("\n", GetObjectNamesByBlueprintIds(new string[] { blueprintId }, pipelineManager.gameObject));
+        string[] duplicateNames = GetObjectNamesByBlueprintIds(new string[] { blueprintId }, pipelineManager.gameObject);
+        string confirmationMessage = $"Blueprint ID '{blueprintId}' が以下のアバターと重複しています。\n\n" + string.Join("\n", duplicateNames);
 
         if (!DisplayConfirmationDialog(confirmationMessage))
         {
