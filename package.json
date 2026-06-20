@@ -1,0 +1,10 @@
+{
+  "name": "io.github.kouwasi.vrc-bpid-dup-detector",
+  "version": "0.0.1",
+  "displayName": "VRC BPID Duplication Detector",
+  "description": "This is a Blueprint ID duplication detector to prevent overwrite of existing avatar in VRChat.",
+  "author": {
+    "name": "大腸・肛門疾患屋さん",
+    "url": "https://hemorrhoids.booth.pm/"
+  }
+}
